@@ -1,0 +1,30 @@
+{
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".npmrc, bun.lock, bun.lockb, npm-shrinkwrap.json, package-lock.json"
+  },
+
+  "search.exclude": {
+    "**/.vscode": true,
+
+    "**/bun.lock": true,
+    "**/bun.lockb": true,
+    "**/npm-shrinkwrap.json": true,
+    "**/package-lock.json": true
+  },
+
+  "terminal.integrated.fontLigatures.enabled": true,
+  "terminal.integrated.initialHint": false,
+
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.startupEditor": "none"
+}
